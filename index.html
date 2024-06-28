@@ -8,24 +8,122 @@
     <title>Page Title</title>
     
     <script src="scripts/main.js"></script>
+    <script src="https://kit.fontawesome.com/d23448af9d.js" crossorigin="anonymous"></script>
 
     <!-- tailwindcss -->
     <link rel='stylesheet' type='text/css' media='screen' href="css/main.css">
+
     <!-- googlefonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&display=swap" rel="stylesheet">    
-    
+    <link href="https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap" rel="stylesheet">
+
 </head>
 <body class="font-figtree">
-    <article class="prose">
-        <h1 class="text-3xl">Hello there!</h1>
-        <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum velit adipisci iste, distinctio maiores alias non inventore necessitatibus quo nobis reprehenderit ullam? Cumque ut quaerat modi perferendis dolores illum est. 
-        </p>
-        
-        <h2 class="text-xl">1914 translation by H. Rackham</h2>
-        <p>"But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a complete account of the system, and expound the actual teachings of the great explorer of the truth, the master-builder of human happiness. No one rejects, dislikes, or avoids pleasure itself, because it is pleasure, but because those who do not know how to pursue pleasure rationally encounter consequences that are extremely painful. Nor again is there anyone who loves or pursues or desires to obtain pain of itself, because it is pain, but because occasionally circumstances occur in which toil and pain can procure him some great pleasure. To take a trivial example, which of us ever undertakes laborious physical exercise, except to obtain some advantage from it? But who has any right to find fault with a man who chooses to enjoy a pleasure that has no annoying consequences, or one who avoids a pain that produces no resultant pleasure?"</p>
-    </article>        
+    <main class="bg-slate-200">
+        <div class="flex flex-row">
+            <div class="basis-6/12">
+                <div class="flex flex-row h-full pr-5 gap-8">
+                    <div class="basis-2/12 self-center">
+                        <div class="">
+                            <div class="flex flex-col text-4xl font-serif py-16 pl-5 pr-9 bg-stone-100 rounded-r-3xl space-y-10 max-w-fit">
+                                <a class="" href="#"><button>Home</button></a>
+                                <a class="" href="#"><button>About</button></a>
+                                <a class="" href="#"><button>Portfolio</button></a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="basis-10/12 self-center flex flex-col gap-y-2">
+                        <div class="">
+                            <div class="text-center flex flex-col gap-y-5">
+                                <div class="">
+                                    <img class="rounded-full mx-auto" src="/assets/images/profile-pic-sq.png" alt="face portrait of a male." />
+                                </div>
+                                <div class="flex flex-col gap-y-2">
+                                    <h1 class="text-3xl font-bold">Dencel Kadambethazhathu Babu</h1>
+                                    <h3 class="text-xl ">Passionate about technology. Loves music, travel and food! <br />Currently, In the process of learning web dev using The Odin Project</h3>
+                                </div>
+                            </div>
+                        </div>
+
+                        <section>                            
+                            <div class="flex place-content-center w-full p-2">
+                                <div>
+                                    <a href="" target="_blank">
+                                        <button
+                                            class="bg-white text-lightBlue-400 shadow-lg font-normal h-10 w-10 items-center justify-center align-center rounded-full outline-none focus:outline-none mr-2"
+                                            type="button">
+                                            <i class="fab fa-instagram"></i>
+                                        </button>
+                                        </a>
+                                </div>
+                                <div>
+                                    <a href="" target="_blank">
+                                        <button
+                                            class="bg-white text-lightBlue-400 shadow-lg font-normal h-10 w-10 items-center justify-center align-center rounded-full outline-none focus:outline-none mr-2"
+                                            type="button">
+                                            <i class="fab fa-github"></i>
+                                        </button>
+                                        </a>
+                                </div>
+                                <div>
+                                    <a href="" target="_blank">
+                                        <button
+                                            class="bg-white text-lightBlue-400 shadow-lg font-normal h-10 w-10 items-center justify-center align-center rounded-full outline-none focus:outline-none mr-2"
+                                            type="button">
+                                            <i class="fab fa-linkedin"></i>
+                                        </button>
+                                        </a>
+                                </div>
+                            </div>
+                        </section>
+                    </div>
+                </div>
+            </div>
+
+            <div class="basis-6/12">
+                <div class="font-outfit flex flex-row h-full font-black text-9xl text-white ">
+                    <div class="basis-1/4 group transition ease-in-out delay-150">
+                        <a href="">
+                            <div class="min-h-full h-screen relative bg-[#2C3E50]">
+                                <p class="absolute bottom-0 right-3 group-hover:-translate-y-2 group-hover:scale-110 duration-300">1</p>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="basis-1/4 group transition ease-in-out delay-150">
+                        <a href="">
+                            <div class="min-h-full relative bg-[#E74C3C]">
+                                <p class="transition absolute bottom-0 right-3 group-hover:-translate-y-2 group-hover:scale-110 duration-300">2</p>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="basis-1/4 group transition ease-in-out delay-150">
+                        <a href="">
+                            <div class="min-h-full relative bg-[#ECF0F1]">
+                                <p class="transition absolute bottom-0 right-3 group-hover:-translate-y-2 group-hover:scale-110 duration-300">3</p>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="basis-1/4 group transition ease-in-out delay-150 ">
+                        <a class="" href="">
+                            <div class="min-h-full relative bg-[#2980B9]">
+                                <p class="absolute bottom-0 right-3 group-hover:-translate-y-2 group-hover:scale-110 duration-300">4</p>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer class="p-2 flex flex-col items-center">
+        <div class="text-center"> 
+            Made with <span class="fa-solid fa-heart" style="color: #db0000;"></span> using @tailwindcss, HTML5 & CSS3.
+        </div>
+    </footer>
+    
 </body>
 </html>
